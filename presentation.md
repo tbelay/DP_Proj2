@@ -1,0 +1,48 @@
+Developing Data Products Assignment 
+========================================================
+author: Tesfaye B
+date: 27 September, 2015
+transition: rotate
+
+Body Mass Index (BMI)
+========================================================
+
+My response to the assignment is to develop a program that request usere information and compute his/her Body Mass Index (BMI). The user enters
+- His/her personal information
+- and press the 'Calculate' button
+- The program computes and display the BMI from the input data
+
+Body Mass Index (BMI) - Continued
+========================================================
+The formula for calculating BMI is
+
+```r
+ # bmi<-function(wt,ht) wt/(ht^2)
+```
+Where
+
+- bmi is Body Mass Index
+- wt is weight in kg
+- ht is height in meters
+
+Computed value
+========================================================
+If a given person's weight is equal to 75kg and height 1.80m, the BMI is :
+
+```r
+wt<-75
+ht<-1.8
+bmi<-wt/(ht^2)
+bmi
+```
+
+```
+[1] 23.14815
+```
+
+BMI Chart
+========================================================
+The BMIChart tab of the appliction displays the following BMI chart
+
+![alt text](BMIChart.jpg)
+
